@@ -46,6 +46,7 @@ select * from employee order by salary desc;
 
 
 select * from employee where emp_id = 103;
+select * from employee where emp_id = 105;
 select * from employee where dept_id = 1;
 select * from employee where dept_id = 2;
 select * from employee where dept_id in (1, 3);
