@@ -83,6 +83,13 @@ where dept_id in (
     select dept_id from department where dept_name in ('HR', 'IT')
 );
 
+select e.emp_name, e.salary, e.dept_id
+from employee e
+where e.salary > (
+    select AVG(sub.salary) 
+    from employee sub 
+    where sub.dept_id = e.dept_id
+);
 
 delete from employee where emp_id = 105;
 
