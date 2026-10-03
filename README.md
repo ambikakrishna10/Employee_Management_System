@@ -1,42 +1,25 @@
-# Employee Management System SQL Project
+**Employee Database SQL Practice**
+  - This repository contains Employee Management System project developed using MySQL and MySQL Workbench.
+  - In this project the database containing two tables `dept` and `emp` tables.
+  - Data inserting into the tables has been uploaded in another file named Data Insertion.
+  - The Queries file has all the queries written for the project.
 
-This project demonstrates basic SQL concepts using MySQL.
+**Topics covered**:
+  - Database and table creation
+  - Primary and foreign keys
+  - Data insertion
+  - SELECT and filtering
+  - ORDER BY and DISTINCT
+  - Aggregate functions
+  - GROUP BY and HAVING
+  - Joins
+  - Subqueries
+  - Views
+  - CTEs and Recursive CTEs
 
-## Concepts Covered
-
-- DDL Commands
-  - CREATE
-  - ALTER
-  - DROP
-  - TRUNCATE
-
-- DML Commands
-  - INSERT
-  - UPDATE
-  - DELETE
-
-- DQL Commands
-  - SELECT
-  - WHERE
-  - ORDER BY
-  - DISTINCT
-  - LIMIT
-
-- Constraints
-  - PRIMARY KEY
-  - FOREIGN KEY
-  - UNIQUE
-  - NOT NULL
-
-- TCL Commands
-  - COMMIT
-  - ROLLBACK
-  - SAVEPOINT
-
-## Database Tables
-
-1. Department
-2. Employee
-
-## Author
-Ambika Krishna Ullamgunta
+**Project Structure**
+ Employee_Management_System/
+ ├── 1_Database_and_Tables.sql
+ ├── 2_Data_Insertion.sql 
+ └── 3_Queries.sql 
+ |--README.md
