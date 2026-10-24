@@ -15,4 +15,4 @@
   - Joins
   - Subqueries
   - Views
-  - CTEs and Recursive CTEs
+  - CTEs and Recursive CTEs.
